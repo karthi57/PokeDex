@@ -36,7 +36,7 @@ function Pokemon() {
       <div className="flex justify-center p-1">
         <input
           type="text"
-          className="input w-1/4 mb-4 p-4 text-black capitalize"
+          className="input w-1/4 text-sm mb-4 text-black capitalize"
           placeholder="Search a Pokemon"
           value={searchPokemon}
           onChange={(e) => setSearchPokemon(e.target.value)}
