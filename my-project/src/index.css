@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 10px;
+    border-radius: 20px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5, 0.25);
+    color: #fff;
+  }
+
+.box{
+    border-radius: 5px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    
+}
+
+
+/* types color */
+.ground {
+    background-color: rgb(154, 93, 93);
+  }
+.rock {
+    background-color: rgb(173, 119, 119);
+  }
+
+  .psychic{
+    background-color: #D6FFC1;
+  }
+
+  .ghost {
+    background-color: rgb(208, 185, 247);
+  }
+  .electric {
+    background-color: rgb(255, 255, 161);
+  }
+  .bug {
+    background-color: #F6D6A7;
+  }
+  .poison {
+    background-color: #e0a7f6;
+  }
+  .normal {
+    background-color: #e6e6e6;
+  }
+  .fairy {
+    background-color: rgba(255, 192, 203, 0.863);
+  }
+  .fire {
+    background-color: #fdcdcd;
+  }
+  .grass {
+    background-color:#E2F9E1;
+  }
+  .water {
+    background-color:#E0F1FD;
+  }
+
+  .fighting{
+    background-color: #f9c5a1;
+  }
+
